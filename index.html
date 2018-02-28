@@ -6,12 +6,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
-<meta Http-Equiv="Cache-Control" Content="no-cache">
-<meta Http-Equiv="Pragma" Content="no-cache">
-<meta Http-Equiv="Expires" Content="0">
-<meta Http-Equiv="Pragma-directive: no-cache">
-<meta Http-Equiv="Cache-directive: no-cache">
-
 <title>Administrative summary</title>
 
 <meta property="og:title" content="Administrative summary" />
@@ -2635,6 +2629,17 @@ window.FlexDashboardComponents.push({
 </div>
 
 </div>
+
+<script type="text/javascript">
+(function() {
+    var randomValue = Math.floor((Math.random() * 1000000) + 1);
+    var images = document.getElementsByTagName("img");
+    for (index in images) {
+        var image = images[index];
+        image.src = image.src + "?cacheResetValue=" + randomValue;
+    }
+})()
+</script>
 
 <script>
 
